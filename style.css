@@ -1,0 +1,54 @@
+body {
+	margin: 0;
+}
+
+.container {
+	max-width: 1280px;
+	margin: auto;
+}
+
+header {
+	background-color: #222;
+}
+
+.menu {
+	display: flex;
+	padding: 54px 160px 0;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu_left {
+	display: flex;
+	align-items: center;
+}
+
+.menu_list {
+	display: flex;
+	list-style-type: none;
+}
+
+.menu_list li {
+	margin-right: 30px;
+}
+
+.menu_list a {
+	text-decoration: none;
+	font-family: Verdana;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 17px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #D4D4D4;
+}
+
+.mail {
+	margin-right: 24px
+}
+
+.contacts {
+	display: flex;
+	align-items: flex-start;
+}
